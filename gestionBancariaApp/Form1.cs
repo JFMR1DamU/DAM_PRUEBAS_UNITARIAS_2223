@@ -52,7 +52,7 @@ namespace gestionBancariaApp
 
             }
 
-            txtSaldo.Text = cuenta.obtenerSaldo().ToString();
+            txtSaldo.Text = cuenta.obtenerSaldo().ToString("0.##");
         }
 
 
